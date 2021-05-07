@@ -99,10 +99,10 @@ figure {
 #fh5co-header,
 .fh5co-cover {
   background-color: transparent;
-  background-size: cover;
+  /* background-size: cover; */
   background-attachment: fixed;
   position: relative;
-  height: 600px;
+  height: 535px;
   width: 100%;
 }
 #fh5co-header .overlay,
@@ -112,7 +112,7 @@ figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #f79d65;
+  /* background: #f79d65; */
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -123,7 +123,7 @@ figure {
 .fh5co-cover .display-tc {
   display: table-cell;
   vertical-align: middle;
-  height: 600px;
+  height: 350px;
 }
 #fh5co-header .display-tc h1,
 #fh5co-header .display-tc h2,
@@ -205,6 +205,12 @@ figure {
 .fh5co-cover .display-tc h3 {
   font-size: 16px;
 }
+
+.typewrite.h3 {
+  color: #fff;
+  size: 55px;
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h3,
   .fh5co-cover .display-tc h3 {
