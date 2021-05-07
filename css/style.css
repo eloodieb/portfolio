@@ -242,7 +242,7 @@ figure {
 }
 
 #fh5co-features {
-  background: #f79d65;
+  background: #f9ab94;
 }
 #fh5co-features h2 {
   color: #fff;
@@ -299,7 +299,6 @@ figure {
 }
 
 #fh5co-about,
-#fh5co-resume,
 #fh5co-skills,
 #fh5co-started,
 #fh5co-work,
@@ -328,7 +327,7 @@ figure {
 
 .fh5co-bg-dark {
   background: #2f3c4f;
-  background: #f79d65;
+  background: #f9ab94;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -425,9 +424,6 @@ figure {
   background: #ff9000;
 }
 
-.fh5co-heading {
-  margin-bottom: 5em;
-}
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
 }
@@ -553,7 +549,7 @@ figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #ff9000;
+  background-color: #f98d6d;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
