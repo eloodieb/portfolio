@@ -20,7 +20,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #4d4d4d;
-  background: #fff;
+  background: #f9f9f9;
 }
 
 #page {
@@ -217,20 +217,8 @@ figure {
     font-size: 14px;
   }
 }
-#fh5co-header .display-tc .profile-thumb,
-.fh5co-cover .display-tc .profile-thumb {
-  background-size: cover !important;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 200px;
-  width: 200px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
+#fh5co-started .profile-thumb {
+  border-radius: 12%;
 }
 #fh5co-header .display-tc .fh5co-social-icons li a,
 .fh5co-cover .display-tc .fh5co-social-icons li a {
@@ -248,7 +236,7 @@ figure {
   color: #fff;
 }
 #fh5co-features .services-padding {
-  padding: 7em 0;
+  padding: 4em 0;
 }
 #fh5co-features .feature-left {
   margin-bottom: 40px;
@@ -305,7 +293,7 @@ figure {
 #fh5co-blog,
 #fh5co-pricing,
 #fh5co-contact {
-  padding: 7em 0;
+  padding: 4em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -429,7 +417,7 @@ figure {
 }
 .fh5co-heading h2 {
   font-size: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   line-height: 1.5;
   color: #000;
 }
