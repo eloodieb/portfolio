@@ -25,7 +25,13 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-	
+
+	<!-- Devicon -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+
+	<!-- Font awesome -->
+	<script src="https://kit.fontawesome.com/c8bdca93db.js" crossorigin="anonymous"></script>
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -43,13 +49,24 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+
+
 	</head>
 	<body>
 		
 	<div class="fh5co-loader"></div>
-	
+
 	<div id="page">	
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img11.jpg);" data-stellar-background-ratio="0.5">
+		<ul class="nav nav-pills">
+			<li role="" class=""><a href="#formations">Formations</a></li>
+			<li role="presentation" class=""><a href="#experiences">Expériences</a></li>
+			<li role="presentation" class=""><a href="#competences">Compétences</a></li>
+			<li role="presentation" class=""><a href="#projets">Projets</a></li>
+			<li role="presentation" class=""><a href="#contact">Contact</a></li>
+		  </ul>
+
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/background1.jpg);" data-stellar-background-ratio="0.5">
+		
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -103,11 +120,11 @@
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0">
 					<ul class="timeline">
-						<li class="timeline-heading text-center animate-box">
+						<li class="timeline-heading text-center animate-box" id="formations">
 							<div><h3>Formations</h3></div>
 						</li>
 						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Développement web full-stack - Passerelle Numérique</h3>
@@ -120,7 +137,7 @@
 							</div>
 						</li>
 						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Licence Professionnelle Banque et Assurance</h3>
@@ -132,7 +149,7 @@
 							</div>
 						</li>
 						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">BTS Management des Unités Commerciales</h3>
@@ -144,7 +161,7 @@
 							</div>
 						</li>
 						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">BAC Sciences et Technologies de la Gestion option Gestion des Systèmes d'Information</h3>
@@ -157,11 +174,11 @@
 						</li>
 
 						<br>
-						<li class="timeline-heading text-center animate-box">
+						<li class="timeline-heading text-center animate-box" id="experiences">
 							<div><h3>Expériences</h3></div>
 						</li>
 						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Stage Développeuse web front-end</h3>
@@ -173,7 +190,7 @@
 							</div>
 						</li>
 						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Chargée de clientèle</h3>
@@ -185,7 +202,7 @@
 							</div>
 						</li>
 						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Conseillère accueil</h3>
@@ -197,7 +214,7 @@
 							</div>
 						</li>
 						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Conseillère clientèle en formation</h3>
@@ -218,117 +235,94 @@
 	<div id="fh5co-features" class="animate-box">
 		<div class="container">
 			<div class="services-padding">
-				<div class="row">
+				<div class="row" id="competences">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 						<h2>Mes compétences</h2>
+						<hr class="solid">
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-paintbrush"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Front-end</h3>
-								<ul class="list-unstyled">
-									<li>HTML</li>
-									<li>CSS</li>
-									<li>JavaScript</li>
-									<li>Angular</li>
-								  </ul>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-cloud"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Back-end</h3>
-								<ul class="list-unstyled">
-									<li>MySQL</li>
-									<li>PHP</li>
-									<li>Node.js</li>
-									<li>Linux</li>
-								  </ul>
-							</div>
-						</div>
-
-					</div>
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-search"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Gestion de contenu</h3>
-								<ul class="list-unstyled">
-									<li>WordPress</li>
-									<li>Elementor</li>
-								  </ul>
-							</div>
-						</div>
-					</div>
-				</div>
-
 
 				<div class="row">
-					<div class="col-md-4 text-center">
-
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-pencil"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Design</h3>
-								<ul class="list-unstyled">
-									<li>UX/UI</li>
-									<li>Figma</li>
-									<li>Photoshop</li>
-								  </ul>
-							</div>
-						</div>
-
+					<div class="col-md-4">
+						<div class="list-group">
+							<p class="list-group-item active text-center">
+								<span class="icon"><i class="icon-tools"></i></span>
+							  Front-end
+							</p>
+							<li class="list-group-item"><i class="devicon-html5-plain"></i>HTML</li>
+							<li class="list-group-item"><i class="devicon-css3-plain"></i>CSS</li>
+							<li class="list-group-item"><i class="devicon-bootstrap-plain"></i>Bootstrap</li>
+							<li class="list-group-item"><i class="devicon-javascript-plain"></i>Javascript</li>
+							<li class="list-group-item"><i class="devicon-angularjs-plain"></i>Angular</li>
+						  </div>
 					</div>
 
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-tools"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Outils</h3>
-								<ul class="list-unstyled">
-									<li>Linux</li>
-									<li>Visual Studio Code</li>
-									<li>Atom</li>
-								  </ul>
-							</div>
-						</div>
-					</div>
-				
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-chat"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Gestion de projet</h3>
-								<ul class="list-unstyled">
-									<li>Scrum</li>
-									<li>Git</li>
-									<li>GitHub</li>
-									<li>Trello</li>
-								  </ul>
-							</div>
-						</div>
+					<div class="col-md-4">
+						<div class="list-group">
+							<p class="list-group-item active text-center">
+								<span class="icon"><i class="icon-tools"></i></span>
+							  Back-end
+							</p>
+							<li class="list-group-item"><i class="devicon-php-plain"></i>PHP</li>
+							<li class="list-group-item"><i class="devicon-mysql-plain"></i>MySQL</li>
+							<li class="list-group-item"><i class="devicon-apache-plain"></i>Apache</li>
+						  </div>
 					</div>
 
-			
+					<div class="col-md-4">
+						<div class="list-group">
+							<p class="list-group-item active text-center">
+								<span class="icon"><i class="icon-tools"></i></span>
+							  Gestion de contenu
+							</p>
+							<li class="list-group-item"><i class="devicon-wordpress-plain"></i>WordPress</li>
+							<li class="list-group-item"><i class="fab fa-elementor"></i>Elementor</li>
+						  </div>
+					</div>
 				</div>
+
+				<div class="row mt-3">
+					<div class="col-md-4">
+						<div class="list-group">
+							<p class="list-group-item active text-center">
+								<span class="icon"><i class="icon-tools"></i></span>
+							  Design
+							</p>
+							<li class="list-group-item"><i class="fas fa-palette"></i>UX / UI</li>
+							<li class="list-group-item"><i class="devicon-figma-plain"></i>Figma</li>
+							<li class="list-group-item"><i class="devicon-photoshop-plain"></i>Photoshop</li>
+						  </div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="list-group">
+							<p class="list-group-item active text-center">
+								<span class="icon"><i class="icon-tools"></i></span>
+								Outils
+							</p>
+							<li class="list-group-item"><i class="devicon-linux-plain"></i>Linux</li>
+							<li class="list-group-item"><i class="devicon-visualstudio-plain"></i>Visual Studio Code</li>
+							<li class="list-group-item"><i class="devicon-atom-original"></i>Atom</li>
+						  </div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="list-group">
+							<p class="list-group-item active text-center">
+								<span class="icon">
+									<i class="icon-tools"></i>
+								</span> 
+							
+							  Gestion de Projet
+							</p>
+							<li class="list-group-item"><i class="devicon-git-plain"></i>Git</li>
+							<li class="list-group-item"><i class="devicon-github-original"></i>GitHub</li>
+							<li class="list-group-item"><i class="devicon-trello-plain"></i>Trello</li>
+							<li class="list-group-item">Scrum</li>
+						  </div>
+					</div>
+				</div>
+		
 			</div>
 		</div>
 	</div>
@@ -337,7 +331,7 @@
 	<div id="fh5co-blog">
 		<div class="container">
 			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading" id="projets">
 					<h2>Mes projets</h2>
 				</div>
 			</div>
@@ -395,7 +389,7 @@
 					<img src="images/photoprofil.jpg" alt="" class="profile-thumb">
 				</div>
 
-				<div class="col-md-6">
+				<div class="col-md-6" id="contact">
 					<h2>Contactez-moi</h2>
 					<ul class="list-unstyled">
 						<li> <i class="icon-pencil"></i> Elodie Bouget</li>
