@@ -95,6 +95,11 @@ figure {
   color: #fff;
   background: #ff9000;
 }
+nav {
+  background: none;
+  position: relative;
+  z-index: 1;
+}
 
 .nav,
 .nav-pills > li > a {
@@ -339,7 +344,7 @@ p.h2 {
   color: #fff !important;
 }
 #fh5co-started h3,
-#contact {
+#contacts {
   color: white;
 }
 
@@ -615,7 +620,7 @@ p.h2 {
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: normal;
-  color: #bfbfbf;
+  color: #616cc7;
 }
 
 .timeline-body > p,
@@ -886,8 +891,8 @@ p.h2 {
 .fh5co-blog .blog-text span {
   display: inline-block;
   margin-bottom: 20px;
-  font-size: 18px !important;
-  color: rgba(0, 0, 0, 0.3);
+  font-size: 15px !important;
+  color: #333333a6;
 }
 .fh5co-blog .blog-text .stuff {
   margin: 0;
@@ -1036,7 +1041,7 @@ p.h2 {
   color: #000;
 }
 
-#contact {
+#contacts {
   margin-top: 45px;
 }
 
@@ -1388,6 +1393,10 @@ i {
 .icon-competences {
   margin: 5px;
   width: 125px;
+}
+
+.badge {
+  background: #c3f5e4;
 }
 
 /*# sourceMappingURL=style.css.map */
